@@ -3,7 +3,7 @@
 An n8n workflow that automatically posts to LinkedIn from a Google Sheets content queue.
 
 ## How it works
-
+This repository contains an n8n workflow that automates LinkedIn posting. It reads pending posts from a Google Sheet, publishes them to LinkedIn, and marks each row as posted once complete. Useful for scheduling content in advance without manually posting each time.
 1. **Trigger** — runs on a schedule (or manual trigger for testing)
 2. **Get Next Unposted Row** — reads a Google Sheet, finds the first row where `Posted = No`
 3. **IF Content Exists** — skips if there's no text to post
