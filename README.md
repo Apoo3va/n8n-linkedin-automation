@@ -43,6 +43,10 @@ Create a sheet with these columns:
    * Credential dropdowns: point them at the credentials you created above
 3. Swap the manual trigger for a Schedule Trigger if you want this to run automatically
 
+## Proof it works
+
+![LinkedIn post published automatically via this workflow](screenshot/linkedin-post-proof.jpeg)
+
 ## Notes
 
 LinkedIn's API requires images to be uploaded via a separate "register upload" call before referencing them. The n8n LinkedIn node itself handles this automatically for image posts. Rate limits apply, so don't schedule this to post too frequently.
